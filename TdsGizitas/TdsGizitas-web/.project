@@ -3,7 +3,6 @@
 	<name>TdsGizitas-web</name>
 	<comment></comment>
 	<projects>
-		<project>TdsGizitas-DbCreator</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

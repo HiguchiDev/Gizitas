@@ -3,6 +3,10 @@
 	<name>TdsGizitas</name>
 	<comment></comment>
 	<projects>
+		<project>TdsGizitas-data-access</project>
+		<project>TdsGizitas-ear</project>
+		<project>TdsGizitas-ejb</project>
+		<project>TdsGizitas-web</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
