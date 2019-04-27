@@ -6,6 +6,7 @@ public class B4RegistResponse {
 	private String applicationTypeCode;
 	private String applicationSubTypeCode;
 	private String receptTypeCode;
+	private String resultMessage;
 
 	public String getGroupId() {
 		return groupId;
@@ -30,6 +31,12 @@ public class B4RegistResponse {
 	}
 	public void setReceptTypeCode(String receptTypeCode) {
 		this.receptTypeCode = receptTypeCode;
+	}
+	public String getResultMessage() {
+		return resultMessage;
+	}
+	public void setResultMessage(String resultMessage) {
+		this.resultMessage = resultMessage;
 	}
 
 }

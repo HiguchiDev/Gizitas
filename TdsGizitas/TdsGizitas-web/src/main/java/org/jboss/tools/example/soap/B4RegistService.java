@@ -29,7 +29,10 @@ public class B4RegistService {
 		idaApplicationFormInfoTbl.setEntryDt(Date.valueOf("2019-02-01"));
 		idaApplicationFormInfoTbl.setGroupId("2");
 
+
 		dao.save(idaApplicationFormInfoTbl);
+
+		b4RegistResponse.setResultMessage("正常終了");
 
     	return b4RegistResponse;
     }
